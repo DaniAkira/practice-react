@@ -5,7 +5,7 @@ export default function BannerSection() {
         <section id="banner">
             <div className="limit-banner">
                 <p>Preços baixos</p>
-                <h1>ÓCULOS DE SOL E GAU</h1>
+                <h1>ÓCULOS DE SOL E GRAU</h1>
                 <p>Você só encontra aqui</p>
             </div>
         </section>

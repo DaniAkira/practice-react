@@ -16,10 +16,10 @@ body {
 
 
 .limit-section {
-  width: 100%;
+  align-items: center;
+  width: 80%;
   display: flex;
   justify-content: space-between;
-  width: 80%;
   padding-left: 15%;
 }
 
@@ -42,8 +42,7 @@ nav a {
   font-size: 18px;
   color: #444;
   padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 5px;
 }
 
 h2 {
@@ -87,18 +86,19 @@ h2 {
 #products {
   width: 100%;
   text-align: center;
-  padding: 100px 20px;
+  padding: 50px 20px;
 }
 
 .limit-products {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 30px 0;
 }
 
 .limit-products p {
   font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .products {
@@ -110,7 +110,7 @@ h2 {
 
 .card {
   background-color: #f6f6f6;
-  width: calc(50% - 15px);
+  width: calc(50% - 30px);
   padding: 20px 10px;
   margin-bottom: 20px;
   display: flex;
@@ -150,7 +150,7 @@ h2 {
 
 #about {
   background-color: #f8f7ff;
-  padding: 100px 20px;
+  padding: 50px 20px;
   text-align: center;
   height: 100%;
 }
@@ -158,10 +158,11 @@ h2 {
 .about p {
   font-size: 22px;
   line-height: 32px;
+  padding: 0 40px;
 }
 
 .limit-about {
-  margin-top: 50px;
+  margin: 50px 50px;
   display: flex;
   flex-wrap: wrap;
   height: 1000px;
@@ -243,5 +244,192 @@ footer {
   padding: 20px;
   color: #fff;
   text-align: center;
+}
+
+@media (max-width: 1610px) {
+  #banner {
+    background-position: 50%;
+  }
+}
+
+@media (max-width: 1340px) {
+  #banner {
+    background-position: 80%;
+  }
+
+  .limit-banner {
+    padding: 170px 20px 20px 100px
+  }
+
+  .limit-banner h1 {
+    line-height: 50px;
+    font-size: 56px;
+    max-width: 350px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .limit-section {
+    padding-left: 5%;
+    margin: 0;
+  }
+
+  #home nav {
+    margin-left: 120px;
+  }
+
+  nav a {
+    margin: 0;
+  }
+
+  #banner {
+    background-position: 70% -150%;
+  }
+
+  .limit-banner {
+    padding: 120px 20px 20px 100px
+  }
+
+  .limit-banner h1 {
+    line-height: 50px;
+    font-size: 40px;
+    max-width: 350px;
+  }
+
+  .limit-banner p {
+    font-size: 20px;
+  }
+
+  .limit-products h2 {
+     font-size: 30px;
+     margin-top: 10px;
+  }
+
+  .card h3 {
+    font-size: 26px;
+    max-width: 200px;
+  }
+
+  .about h2 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+
+  .about p {
+    font-size: 22px;
+  }
+
+  .limit-about {
+    margin: 10px 30px;
+    flex-direction: row;
+    height: 450px;
+  }
+
+  .box-about, .limit-about img {
+    width: calc(50% - 30px);
+  }
+
+  .box-about h3 {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .box-about p {
+    font-size: 18px;
+    padding: 0px 10px;
+  }
+
+  .box-about h3, .box-about p {
+    letter-spacing: 3px;
+    line-height: 32px;
+  }
+
+  .limit-contact p {
+    max-width: 80%;
+  }
+
+  .limit-contact {
+    align-items: center;
+  }
+}
+
+@media (max-width: 680px) {
+  .limit-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    max-height: 300px;
+  }
+
+  .limit-section img {
+    margin-bottom: 5px;
+  }
+
+  #home nav {
+    margin-left: 0;
+  }
+
+  .limit-products h2 {
+    margin-top: 35px;
+  }
+
+  .about h2 {
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .box-about, .limit-about img {
+    width: calc(50% - 14px);
+    max-height: 50%;
+    margin: 0;
+  }
+
+  .box-about h3 {
+    font-size: 26px;
+  }
+  
+  .box-about p {
+    font-size: 16px;
+  }
+
+  .box-about h3, .box-about p {
+    letter-spacing: 3px;
+    line-height: 22px;
+  }
+
+  .limit-about {
+    height: 350px;
+  }
+}
+
+@media (max-width: 550px) {
+  .box-about, .limit-about img {
+    width: calc(50% - 14px);
+    max-height: 50%;
+    margin: 0;
+  }
+
+  .box-about h3 {
+    font-size: 22px;
+  }
+  
+  .box-about p {
+    font-size: 14px;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .box-about h3, .box-about p {
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  .limit-about {
+    height: 350px;
+  }
 }
 
