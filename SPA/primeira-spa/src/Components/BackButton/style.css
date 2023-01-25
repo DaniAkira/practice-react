@@ -1,0 +1,14 @@
+.button-area {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button {
+    background-color: rgb(56, 161, 165);
+    font-size: 42px;
+    width: 180px;
+    height: 70px;
+}

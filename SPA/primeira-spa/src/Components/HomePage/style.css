@@ -1,0 +1,37 @@
+div {
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgb(236, 234, 234);
+}
+
+h1 {
+    margin: 300px 0 50px 0;
+    font-size: 42px;
+}
+
+.front-end-option {
+    background-color: rgb(187, 100, 100);
+    font-size: 30px;
+    max-height: 50px;
+    padding: 0 5px;
+    margin-top: 20px;
+    width: 180px;
+}
+
+.back-end-option {
+    background-color: rgb(68, 75, 141);
+    font-size: 30px;
+    max-height: 50px;
+    padding: 0 5px;
+    margin-top: 20px;
+    width: 180px;
+}

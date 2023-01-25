@@ -1,0 +1,10 @@
+.back-end-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-end-content p {
+    width: 80%;
+    font-size: 22px;
+}
