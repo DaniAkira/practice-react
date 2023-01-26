@@ -10,7 +10,7 @@
 
 <div align="center">
   <h2>Primeira SPA<h2>
-    <p>Objetivo - Entender o conceito e como desenvolver páginas SPAs.<p>
+    <p>Objetivo - Entender o conceito e aprender como desenvolver páginas SPAs.<p>
     <img height="250px" src="https://github.com/DaniAkira/practice-react/blob/master/gifs/PrimeiraSPA.gif">
 </div>
 
