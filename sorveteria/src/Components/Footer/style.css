@@ -1,0 +1,24 @@
+footer {
+    background-color: rgb(15, 15, 15);
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25vh;
+}
+
+.contact-section img {
+    height: 100px;
+}
+
+.card-contact {
+    color: #fff;
+    max-width: 200px;
+}
+
+.direitos {
+    text-align: center;
+    color: #fff;
+}

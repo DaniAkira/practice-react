@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import './style.css'
 
 export const Header = () => (
-    <div>
-        <img></img>
+    <header className="limited-section">
+        <img src="assets/logo.png"></img>
 
-        < Link to='/'>Home</Link>
-        < Link to='/sabores'>Sabores</Link>
-        < Link to='/sobre'>Sobre</Link>
-    </div>
+        <nav>
+            < Link className="link-header" to='/'>Home</Link>
+            < Link className="link-header" to='/sabores'>Sabores</Link>
+            < Link className="link-header"to='/sobre'>Sobre</Link>
+        </nav>
+    </header>
 )
