@@ -4,7 +4,7 @@
 
 <div align="center">
   <h2>Sorveteria Gelateria<h2>
-    <p>Objetivo - Entender - Praticar o desenvolvimento e o entendimento de páginas SPAs. no React.<p>
+    <p>Objetivo - Praticar o desenvolvimento e o entendimento de páginas SPAs. no React.<p>
     <img height="250px" src="https://github.com/DaniAkira/practice-react/blob/master/gifs/GaleteriaSPA.gif">
 </div>
 
