@@ -21,4 +21,36 @@ footer {
 .direitos {
     text-align: center;
     color: #fff;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .card-contact h3 {
+        font-size: 16px;
+    }
+
+    .card-contact p {
+        font-size: 12px;
+    }
+
+    .contact-section img {
+        height: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-section {
+        flex-direction: column;
+        justify-content: center;
+        height: 35vh;
+    }
+
+    .card-contact {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .direitos {
+        font-size: 14px;
+    }
 }

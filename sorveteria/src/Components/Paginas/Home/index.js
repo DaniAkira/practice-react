@@ -9,7 +9,7 @@ export const HomePage = () => (
 
         <main>
             <section className="limited-section">
-                <div className="banner-section">
+                <div className="home-banner-section">
                     <img className="ice-cream-img" src="assets/banner-home.png"></img>
                     <h1>SORTEVE ARTESANAL</h1>
                 </div>
