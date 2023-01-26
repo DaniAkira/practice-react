@@ -4,8 +4,7 @@ import './style.css'
 
 export const Header = () => (
     <header>
-        <img src="assets/logo.png"></img>
-
+        <img className="logo-img" src="assets/logo.png"></img>
         <nav className="navigation">
             < Link className="link-header" to='/'>Home</Link>
             < Link className="link-header" to='/sabores'>Sabores</Link>
@@ -13,3 +12,4 @@ export const Header = () => (
         </nav>
     </header>
 )
+

@@ -19,7 +19,7 @@ export const Sabores = () => (
                     <h2>CONHEÇA NOSSOS SABORES</h2>
                     <div className="flavors">
                         <div className="card-flavor">
-                            <img src="assets/sabor-oreo.jpg"></img>
+                            <img src="assets/sabor-oreo.png"></img>
                             <h3>Oreo</h3>
                             <p>Delicioso sorvete sabor Oreo. Uma explosão de sabor.</p>
                         </div>
