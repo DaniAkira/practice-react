@@ -26,7 +26,7 @@ export const Footer = () => (
         </div>
         <div className="direitos">
             <p>
-                Galeris, Desenvolvida com React JS
+                Galeteria, Desenvolvida com React JS
             </p>
         </div>
     </footer>
