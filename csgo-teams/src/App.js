@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import Header from './components/Header';
 import CardInfo from './components/CardInfo';
 import CardSide from './components/CardSide';
 
@@ -7,26 +8,16 @@ import CardSide from './components/CardSide';
 function App() {
   const [sideCard, setSideCard] = useState("CT");
 
-  const SetState = () => {
-    if (sideCard === "CT") {
-      setSideCard("TR");
-    } else {
-      setSideCard("CT");
-    }
+  const setState = () => {
+    sideCard === "CT" ? setSideCard("TR") : setSideCard("CT")
   };
 
   
-
-
   return (
     <div className="App">
-      <header>
-        <h1>Projeto Props + useState</h1>
-        <p>Click no botão para alterar os times</p>
-        <button onClick={SetState}>Mudar Time</button>
-      </header>
-      <CardSide side={sideCard} />
-      <CardInfo side={sideCard} />
+      <Header clickSawpTeam = {setState} />
+      <CardSide side = {sideCard} />
+      <CardInfo side = {sideCard} />
     
     </div>
   );
