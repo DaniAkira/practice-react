@@ -8,9 +8,9 @@ export default function CardInfo(props) {
     
  
     return (
-        <div className='card-info'>
-        <h3>Informação sobre o {props.side === "CT" ? nameSideCT : nameSideTR}</h3>
-        <p>{props.side === "CT" ? infoSideCT : infoSideTR}</p>
-      </div>
+        <div className='CardInfo'>
+            <h3>Informação sobre o {props.side === "CT" ? nameSideCT : nameSideTR}</h3>
+            <p>{props.side === "CT" ? infoSideCT : infoSideTR}</p>
+        </div>
     );
 }

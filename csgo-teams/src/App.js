@@ -15,10 +15,11 @@ function App() {
   
   return (
     <div className="App">
-      <Header clickSawpTeam = {setState} />
-      <CardSide side = {sideCard} />
-      <CardInfo side = {sideCard} />
-    
+      <section className='SectionApp'>
+        <Header clickSawpTeam = {setState} />
+        <CardSide side = {sideCard} />
+        <CardInfo side = {sideCard} />
+      </section>
     </div>
   );
 }
