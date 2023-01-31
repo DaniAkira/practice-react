@@ -2,6 +2,12 @@
 * Desenvolvidos com o intuito de aprender e praticar o uso do React JS.
 * Abaixo estão prévias dos projetos desenvolvidos.
 
+## Gerador de número aleatório
+* Objetivo - Projeto foi desenvolvido com o objetivo de aprender e entender o uso de state hook (useState) no React.
+<div align="center">
+    <img height="250px" src="https://github.com/DaniAkira/practice-react/blob/master/gifs/NumeroAleatorio.gif">
+</div>
+
 ## Sorveteria Gelateria
 * Objetivo - Praticar o desenvolvimento e o entendimento de páginas SPAs. no React.
 <div align="center">
