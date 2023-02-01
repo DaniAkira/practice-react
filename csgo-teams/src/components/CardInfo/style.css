@@ -20,3 +20,14 @@
     margin: 20px 60px;
     color: rgb(66, 66, 66);
 }
+
+@media (max-width: 500px) {
+    .CardInfo h3 {
+        font-size: 1.2em;
+    }
+
+    .CardInfo p {
+        font-size: 1em;
+        margin: 10px 5px;
+    }
+}
