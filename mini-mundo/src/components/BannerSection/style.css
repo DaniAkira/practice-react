@@ -11,12 +11,12 @@
     background-image: url('../../../public/assets/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -150px;
+    background-position: -190px;
 }
 
 .BannerImg, .BannerAbout {
     width: 40vw;
-    height: 80vh;
+    height: 100vh;
 }
 
 .BannerAbout {
@@ -40,4 +40,31 @@
 .BannerAbout span {
     font-size: 2.8em;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .BannerImg {
+        display: none;
+    }
+
+    .BannerAbout {
+        width: 100vw;
+        padding-left: 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .BannerAbout h2 {
+        font-size: 2.4;
+    }
+
+    .BannerAbout {
+        width: 80vw;
+        margin: 0 18vw 0 2vw;
+    }
+
+    .BannerAbout span {
+        font-size: 3em;
+    }
 }

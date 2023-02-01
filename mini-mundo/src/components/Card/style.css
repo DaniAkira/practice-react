@@ -1,6 +1,6 @@
 .Card {
     border: 1px solid #edecec;
-    max-width: 20vw;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -15,4 +15,10 @@
 
 .Card h2 {
     color: #32333c;
+}
+
+@media (max-width: 768px) {
+    .Card {
+        width: 90vw;
+    }
 }

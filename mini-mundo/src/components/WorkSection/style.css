@@ -41,3 +41,28 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .CardSection {
+        flex-direction: column;
+        padding-bottom: 10vh;
+    }
+
+    .WorkSection {
+        height: 150vh;
+    }
+
+    .WorkAbout p {
+        padding: 0 3vw;
+    }
+}
+
+@media (max-width: 420px) {
+    .WorkSection {
+        height: 185vh;
+    }
+
+    .WorkAbout {
+        margin-bottom: 4em;
+    }
+}
