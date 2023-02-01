@@ -1,4 +1,5 @@
 import React from "react";
+import './style.css';   
 
 export default function Footer() {
     return (
@@ -16,7 +17,7 @@ export default function Footer() {
                 <img src="./assets/behance.png"></img>
                 <img src="./assets/google-plus.png"></img>
             </div>
-            <div>
+            <div className="Rights">
                 <p>Copyright 2022 &copy; <span>Daniel Akira</span></p>
             </div>
         </footer>

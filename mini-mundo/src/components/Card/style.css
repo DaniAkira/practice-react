@@ -1,0 +1,18 @@
+.Card {
+    border: 1px solid #edecec;
+    max-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3em 1em;
+}
+
+
+.Card p {
+    color: #8a8fa3;
+    margin: 0.8em 0;
+}
+
+.Card h2 {
+    color: #32333c;
+}

@@ -1,0 +1,43 @@
+.BannerSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fafbfc;
+}
+
+.BannerImg {
+    background-image: url('../../../public/assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -150px;
+}
+
+.BannerImg, .BannerAbout {
+    width: 40vw;
+    height: 80vh;
+}
+
+.BannerAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #022144;
+}
+
+.BannerAbout p {
+    font-size: 0.7em;
+    letter-spacing: 0.4em;
+} 
+
+.BannerAbout h2 {
+    font-size: 2.8em;
+    font-weight: 500;
+}
+
+.BannerAbout span {
+    font-size: 2.8em;
+    font-weight: bold;
+}

@@ -1,11 +1,13 @@
 import React from "react";
 import Card from "../Card/script";
+import './style.css';
 
 export default function WorkSection() {
     return (
         <section className="WorkSection">
-            <div>
+            <div className="WorkAbout">
                 <h2>Experiência De Trabalho</h2>
+                <div className="YellowFeature"></div>
                 <p>
                     Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de Sites e Marketing Digital,
                 nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.

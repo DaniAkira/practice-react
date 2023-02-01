@@ -1,0 +1,23 @@
+header {
+    background-color: #fff;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 3vw;
+}
+
+header img {
+    max-height: 35px;
+}
+
+.ModeBtn img {
+    max-height: 35px;
+    border: 1px solid #747272;
+    border-radius: 50%;
+}
+
+.ModeBtn {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
