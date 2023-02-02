@@ -2,6 +2,13 @@
 * Desenvolvidos com o intuito de aprender e praticar o uso do React JS.
 * Abaixo estão prévias dos projetos desenvolvidos.
 
+
+## Mini Mundo Branding e design digital
+* Objetivo - Projeto desenvolvido para praticar o desenvolvimento de componentes com props e o uso do useState, usado para alterar o tema da página.
+<div align="center">
+    <img height="250px" src="https://github.com/DaniAkira/practice-react/blob/master/gifs/mini-mundo.gif">
+</div>
+
 ## Gerador de número aleatório
 * Objetivo - Projeto foi desenvolvido com o objetivo de aprender e entender o uso de state hook (useState) no React.
 <div align="center">
