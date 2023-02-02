@@ -1,4 +1,4 @@
-.WorkSection {
+.WorkSectionLight {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +7,7 @@
     height: 90vh;
 }
 
-.WorkAbout {
+.WorkAboutLight {
     max-width: 80vw;
     height: 40vh;
     display: flex;
@@ -16,10 +16,11 @@
     justify-content: center;
 }
 
-.WorkAbout h2 {
+.WorkAboutLight h2 {
     font-size: 2.8em;
     padding: 10px;
     color: #32333c;
+    text-align: center
 }
 
 .YellowFeature {
@@ -29,7 +30,7 @@
     margin: 10px 0;
 }
 
-.WorkAbout p {
+.WorkAboutLight p {
     margin: 10px 10px;
     padding: 0 20vw;
     color: #8a8fa3;
@@ -42,27 +43,84 @@
     justify-content: center;
 }
 
+/*DARK MODE*/
+
+.WorkSectionDark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #393838;
+    height: 90vh;
+}
+
+.WorkAboutDark {
+    max-width: 80vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.WorkAboutDark h2 {
+    font-size: 2.8em;
+    padding: 10px;
+    color: #cccccc;
+    text-align: center
+}
+
+.WorkAboutDark p {
+    margin: 10px 10px;
+    padding: 0 20vw;
+    color: #cccccc;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .CardSection {
         flex-direction: column;
         padding-bottom: 10vh;
     }
 
-    .WorkSection {
+    .WorkSectionLight {
         height: 150vh;
     }
 
-    .WorkAbout p {
+    .WorkAboutLight p {
+        padding: 0 3vw;
+    }
+
+    /*DARK MODE*/
+    
+    .WorkSectionDark {
+        height: 150vh;
+    }
+
+    .WorkAboutDark p {
         padding: 0 3vw;
     }
 }
 
+
 @media (max-width: 420px) {
-    .WorkSection {
+    .WorkSectionLight {
         height: 185vh;
     }
 
-    .WorkAbout {
+    .WorkAboutLight {
+        margin-bottom: 4em;
+    }
+
+    /*DARK MODE*/
+
+    .WorkSectionDark {
+        height: 185vh;
+    }
+
+    .WorkAboutDark {
         margin-bottom: 4em;
     }
 }
+
+

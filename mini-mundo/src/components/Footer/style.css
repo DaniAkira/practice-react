@@ -1,4 +1,4 @@
-footer {
+.FooterLight {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,13 +6,13 @@ footer {
     background-color: #fff;
 }
 
-footer img {
+.FooterLight img {
     margin: 4em 0 1em 0;
     height: auto;
     width: auto;
 }
 
-footer p {
+.FooterLight p {
     color: #8a8fa3;
     padding: 1em 22vw;
     text-align: center;
@@ -33,8 +33,38 @@ footer p {
     color: #feb633;
 }
 
+/*DARK MODE*/
+
+.FooterDark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #252525;
+}
+
+.FooterDark img {
+    margin: 4em 0 1em 0;
+    height: auto;
+    width: auto;
+}
+
+.FooterDark p {
+    color: #9f9f9f;
+    padding: 1em 22vw;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+.Icons img {
+    height: 45px;
+    margin: 0 1em;
+}
+
+
 @media (max-width: 768px) {
-    footer p {
+    .FooterLight p {
         font-size: 1em;
         padding: 1em 14vw;
     }
@@ -47,10 +77,17 @@ footer p {
         height: 40px;
         margin: 1em 0.4em 1.4em 0.4em;
     }
+
+    /*DARK MODE*/
+
+    .FooterDark p {
+        font-size: 1em;
+        padding: 1em 14vw;
+    }
 }
 
 @media (max-width: 420px) {
-    footer p {
+    .FooterLight p {
         font-size: 1em;
         padding: 1em 5vw;
     }
@@ -61,5 +98,12 @@ footer p {
 
     .Icons img {
         margin: 1em 0.5em 1.4em 0.5em;
+    }
+
+    /*DARK MODE*/
+
+    .FooterDark p {
+        font-size: 1em;
+        padding: 1em 5vw;
     }
 }

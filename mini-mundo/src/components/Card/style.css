@@ -1,24 +1,61 @@
-.Card {
+.CardLight {
     border: 1px solid #edecec;
     width: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 3em 1em;
+    cursor: pointer;
+}
+
+.CardLight:hover {
+    background-color: #feb633;
 }
 
 
-.Card p {
+.CardLight p {
     color: #8a8fa3;
     margin: 0.8em 0;
 }
 
-.Card h2 {
+.CardLight h2 {
     color: #32333c;
 }
 
+/*DARK MODE*/
+
+.CardDark {
+    border: 1px solid #9F9F9F;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3em 1em;
+    cursor: pointer;
+}
+
+.CardDark:hover {
+    background-color: #9c7223;
+}
+
+.CardDark p {
+    color: #9F9F9F;
+    margin: 0.8em 0;
+}
+
+.CardDark h2 {
+    color: #cccccc;
+}
+
+
 @media (max-width: 768px) {
-    .Card {
+    .CardLight {
+        width: 90vw;
+    }
+
+    /*DARK MODE*/
+
+    .CardDark {
         width: 90vw;
     }
 }

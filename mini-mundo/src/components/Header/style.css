@@ -1,4 +1,4 @@
-header {
+.HeaderLight {
     background-color: #fff;
     width: 100vw;
     display: flex;
@@ -6,19 +6,41 @@ header {
     padding: 3vh 3vw;
 }
 
-header img {
+.HeaderLight img {
     max-height: 35px;
 }
 
-.ModeBtn img {
+.ModeBtnlight img {
     max-height: 35px;
     border: 1px solid #747272;
     border-radius: 50%;
 }
 
-.ModeBtn {
+.ModeBtnLight {
     border: none;
     background-color: #fff;
     cursor: pointer;
+}
+
+/*DARK MODE*/
+
+.HeaderDark {
+    background-color: #252525;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 3vw;
+}
+
+.ModeBtnDark {
+    border: none;
+    background-color: #252525;
+    cursor: pointer;
+}
+
+.ModeBtnDark img {
+    max-height: 35px;
+    border: 1px solid #747272;
+    border-radius: 50%;
 }
 

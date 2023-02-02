@@ -1,9 +1,9 @@
 import React from "react";
 import './style.css';   
 
-export default function Footer() {
+export default function Footer(props) {
     return (
-        <footer>
+        <footer className={props.mode === false ? 'FooterDark' : 'FooterLight'}>
             <img src="./assets/logo.png"></img>
             <p>
                 Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
