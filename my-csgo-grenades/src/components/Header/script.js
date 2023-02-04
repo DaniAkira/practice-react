@@ -5,7 +5,7 @@ import './style.css';
 export const Header = () => (
     <header>
         <div className='header-section' id='header'>
-            <a href='#header'><img src='assets/Logo.png'></img></a>
+            <a href='#banner-area'><img src='assets/Logo.png'></img></a>
 
             <nav className='nav-bar'>
                 <li>< Link className='link-nav' to='/'>Home</Link></li>

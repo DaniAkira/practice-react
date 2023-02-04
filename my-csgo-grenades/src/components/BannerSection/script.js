@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 export const BannerSection = () => (
-    <section className='banner-section'>
+    <section className='banner-section' id='banner-area'>
         <div className='img-fallen'>
             <img src='assets/fallen-fer.png'></img>
         </div>
