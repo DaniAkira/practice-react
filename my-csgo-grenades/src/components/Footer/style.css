@@ -1,0 +1,14 @@
+.rights {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(26,29,56,1) 0%, rgba(0,3,26,1) 100%);
+}
+
+.rights p {
+    font-size: 1.2em;
+    color: #ccccd2;
+}
+

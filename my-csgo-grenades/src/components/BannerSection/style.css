@@ -1,45 +1,46 @@
 .banner-section {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     background-image: url('../../../public/assets/banner-lg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.img-fallen, .img-simple {
+.img-fallen, .img-rain {
     position: relative;
     height: 100%;
 }
 
-.img-fallen, .img-simple {
+.img-fallen, .img-rain {
     width: calc(100vw/3);
 }
 
-.img-fallen img, .img-simple img{
+.img-fallen img, .img-rain img{
     position: absolute;
     bottom: 0;
 }
 
-.img-simple img {
-    height: 28em;
-    right: -100px;
+.img-rain img {
+    width: 66vw;
+    right: -240px;
 }
 
 .img-fallen img{
     left: -90px;
-    height: 28em;
+    width: 64vw;
 }
 
 .banner-about {
+    margin-top: 8vh;
     text-align: center;
     color: #ccccd2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 72%;
+    height: 62%;
     background-color: rgba(25,28,66, 0.4);
     border-radius: 10%;
 }

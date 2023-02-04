@@ -1,0 +1,44 @@
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    background-color: #00031a;
+}
+
+.main-about {
+    display: flex;
+    align-items: center;
+    height: 28vh;
+    background: linear-gradient(180deg, rgba(26,29,56,1) 0%, rgba(0,3,26,1) 100%);
+    width: 100%;
+}
+
+.main-about h2, .main-about p {
+    color: #ccccd2;
+    width: 50%;
+}
+
+.main-about h2 {
+    font-size: 2.4em;
+    padding: 0 5em;
+    letter-spacing: 0.1em;
+}
+
+.main-about p {
+    font-size: 1.6em;
+    padding: 0 5em;
+}
+
+.card-map-main-section {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+}

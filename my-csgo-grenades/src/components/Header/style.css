@@ -27,7 +27,7 @@ header {
     font-size: 1.2em;
     color: #ccccd2;
     position: relative;
-    width: 5em;
+    width: 6em;
     background-color: #010422;
     text-align: center;
 }
@@ -37,32 +37,22 @@ header {
 }
                         
 .nav-maps {
-    height: auto;
-    width: 7em;
-    background-color: #010422;
-    position: absolute;
-    right: 0;
+    position:absolute;
+    top: 30px;
+    left:0;
+    background-color:#010422;
     display: none;
-    margin-top: 5px;
 }
 
 .nav-maps li {
-    font-size: 0.8em;
-    padding-bottom: 5px;
+    font-size: .8em;
+    padding: 5px 5px;
 }
 
-.link-nav:hover .nav-maps {
+.nav-bar li ul li {
     display: block;
 }
 
-
-.nav-maps:hover .nav-maps{
-    display: block;
+.nav-bar li:hover ul{
+    display:block;
 }
-
-.link-nav:hover {
-    background-color: #33364e;
-}
-
-
-

@@ -14,8 +14,8 @@ export const BannerSection = () => (
             <p>As granadas fazem grande diferença quando são lançadas com sabedoria e no tempo certo, conheça nossa ampla biblioteca de granadas!</p>
         </div>
 
-        <div className='img-simple'>
-            <img src='assets/s1mple-rain.png'></img>
+        <div className='img-rain'>
+            <img src='assets/rain-ropz.png'></img>
         </div>
     </section>
 )

@@ -8,9 +8,9 @@ export const Header = () => (
             <a href='#header'><img src='assets/Logo.png'></img></a>
 
             <nav className='nav-bar'>
-                < Link className='link-nav' to='/'>Home</Link>
-                < Link className='link-nav' to='/mirage'>Mirage</Link>
-                < Link className='link-nav' to='/inferno'>Inferno</Link>
+                <li>< Link className='link-nav' to='/'>Home</Link></li>
+                <li>< Link className='link-nav' to='/mirage'>Mirage</Link></li>
+                <li>< Link className='link-nav' to='/inferno'>Inferno</Link></li>
                 <li className='link-nav'>Outros
                     <ul className='nav-maps'>
                         <li><Link className='link-nav' to='/vertigo'>Vertigo</Link></li>
