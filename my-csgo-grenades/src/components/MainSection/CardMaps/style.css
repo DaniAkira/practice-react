@@ -96,3 +96,17 @@
 .Anubis {
     background-image: url('../../../../public/assets/anubis.jpg');
 }
+
+/*Responsive*/
+
+@media (max-width: 768px) {
+    .card-maps {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .card-maps {
+        width: 80vw;
+    }
+}

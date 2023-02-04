@@ -1,6 +1,6 @@
 .banner-section {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background-image: url('../../../public/assets/banner-lg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,17 +23,17 @@
 }
 
 .img-rain img {
-    width: 66vw;
-    right: -240px;
+    width: 54vw;
+    right: 10px;
 }
 
 .img-fallen img{
-    left: -90px;
-    width: 64vw;
+    left: -40px;
+    width: 50vw;
 }
 
 .banner-about {
-    margin-top: 8vh;
+    margin-top: 14vh;
     text-align: center;
     color: #ccccd2;
     display: flex;
@@ -68,5 +68,81 @@
     border: #ccccd2 solid .2em;
     border-radius: 50%;
     margin-top: 1.2em;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 1080px) {
+    .banner-about h1{
+        font-size: 3em;
+    }
+    
+    .banner-about span {
+        font-size: 2em;
+    }
+    
+    .banner-about p {
+        font-size: 1em;
+    }
+
+    .banner-section {
+        background-position: -100px;
+    }
+
+    .img-fallen img{
+        left: -10px;
+        width: 60vw;
+    }
+
+    .img-rain img {
+        width: 64vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-about p {
+        width: 70%;
+    }
+
+    .banner-about {
+        height: 50%;
+    }
+    .img-rain img {
+        display: none;
+    }
+    
+    .img-fallen img{
+        left: 74%;
+        width: 90vw;
+    }
+
+    .banner-section {
+        background-position: -200px;
+    }
+}
+
+@media (max-width: 425px) {
+    .banner-about h1{
+        font-size: 2em;
+        padding-top: 10%;
+    }
+    
+    .banner-about span {
+        font-size: 1.6em;
+    }
+    
+    .banner-about p {
+        font-size: 1em;
+    }
+
+    .banner-about {
+        margin-top: 20vh;
+        height: 56%;
+    }
+
+    .banner-section {
+        background-position: -400px;
+    }
 }
 

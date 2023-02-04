@@ -1,7 +1,10 @@
 header {
     width: 100vw;
     background-color: #010422;
-    height: 10vh;
+    height: 7.8vh;
+    position: fixed;
+    top: 0;
+    z-index: 8;
 }
 
 .header-section {
@@ -14,22 +17,22 @@ header {
 }
 
 .header-section img{
-    height: 5em;
+    height: 4em;
     padding-top: .5em;
 }
 
 .nav-bar {
     display: flex;
-    gap: 2.2em;
+    background-color: #010422;
 }
 
 .link-nav {
     font-size: 1.2em;
     color: #ccccd2;
     position: relative;
-    width: 6em;
-    background-color: #010422;
+    width: 100%;
     text-align: center;
+    padding: 0 1.4em;
 }
 
 .nav-bar li{
@@ -39,14 +42,19 @@ header {
 .nav-maps {
     position:absolute;
     top: 30px;
-    left:0;
-    background-color:#010422;
+    left: -12px;
+    background-color: #010422;
+    width: 8em;
     display: none;
+}
+
+.nav-maps .link-nav {
+    background-color: #010422;
 }
 
 .nav-maps li {
     font-size: .8em;
-    padding: 5px 5px;
+    padding: 5px;
 }
 
 .nav-bar li ul li {
@@ -56,3 +64,8 @@ header {
 .nav-bar li:hover ul{
     display:block;
 }
+
+.nav-maps .link-nav:hover, .link-nav:hover {
+    background-color: #0e1342;
+}
+

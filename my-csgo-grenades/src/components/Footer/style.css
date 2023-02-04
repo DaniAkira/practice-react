@@ -12,3 +12,9 @@
     color: #ccccd2;
 }
 
+@media (max-width: 425px) {
+    .rights p {
+        font-size: 1em;
+    }
+}
+
