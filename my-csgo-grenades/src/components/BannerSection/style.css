@@ -1,0 +1,71 @@
+.banner-section {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../../../public/assets/banner-lg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.img-fallen, .img-simple {
+    position: relative;
+    height: 100%;
+}
+
+.img-fallen, .img-simple {
+    width: calc(100vw/3);
+}
+
+.img-fallen img, .img-simple img{
+    position: absolute;
+    bottom: 0;
+}
+
+.img-simple img {
+    height: 28em;
+    right: -100px;
+}
+
+.img-fallen img{
+    left: -90px;
+    height: 28em;
+}
+
+.banner-about {
+    text-align: center;
+    color: #ccccd2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 72%;
+    background-color: rgba(25,28,66, 0.4);
+    border-radius: 10%;
+}
+
+.banner-about h1{
+    font-size: 4em;
+    letter-spacing: .1em;
+}
+
+.banner-about span {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding: 0.5em 0;
+}
+
+.banner-about p {
+    width: 40%;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+.bar {
+    width: 50%;
+    border: #ccccd2 solid .2em;
+    border-radius: 50%;
+    margin-top: 1.2em;
+}
+
