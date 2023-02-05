@@ -1,0 +1,35 @@
+.map-banner-section {
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+}
+
+.map-banner-section img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.name-logo-map {
+    position: absolute;
+    left: calc(50% - 25vw);
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    gap: 2em;
+}
+
+.name-logo-map h2 {
+    color: #ccccd2;
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.name-logo-map img {
+    height: 10em;
+    width: 10em;
+}
