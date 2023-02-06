@@ -9,4 +9,4 @@ export const MapBannerSection = (props) => (
             <img src={props.logoMapSrc}></img>
         </div>
     </section>
-)
+);

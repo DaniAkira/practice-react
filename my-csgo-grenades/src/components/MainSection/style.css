@@ -30,12 +30,12 @@
 .main-about p {
     font-size: 1.6em;
     padding: 0 5em;
-    width: 40%;
+    width: 50%;
 }
 
 .card-map-main-section {
     height: auto;
-    width: 100vw;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
@@ -65,6 +65,10 @@
 
     .main-about p {
         font-size: 1em;
+    }
+
+    .card-map-main-section {
+        width: 88%;
     }
 }
 

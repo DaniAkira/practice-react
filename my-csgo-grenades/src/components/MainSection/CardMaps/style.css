@@ -1,12 +1,12 @@
 .card-maps {
-    height: 40vh;
+    height: 36vh;
     width: 20vw;
     background-color: #1a1d38;
     border-radius: 5%;
 }
 
 .map-img-section {
-    height: 70%;
+    height: 68%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,14 +40,15 @@
     background-color: #c8b43a;
     border: none;
     border-radius: 1em;
-    margin: .5em 0 1em 0;
+    margin-top: .5em ;
 }
 
 .grenades-button a{
     color: #1a1d38;
-    padding: 1em;
+    padding: 0 1em;
     font-size: 1.4em;
     font-weight: 600;
+    margin-bottom: 100px;
 }
 
 .grenades-button:hover {
@@ -63,10 +64,13 @@
 .Mirage, .Inferno, .Overpass, .Vertigo, .Nuke, .Ancient, .Anubis {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
-    width: 90%;
+    height: 76%;
+    width: 84%;
+    object-fit: cover;
+    object-position: center;
     margin: 0 auto;
     border-radius: 5%;
+    border: 2px solid #c8b43a;
 }
 
 .Mirage {

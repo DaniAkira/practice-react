@@ -8,7 +8,7 @@ export const BannerSection = () => (
         </div>
 
         <div className='banner-about'>
-            <h1>Descubra novas granadas</h1>
+            <h1>DESCUBRA NOVAS GRANADAS</h1>
             <div className='bar'></div>
             <span>Melhore seu jogo</span>
             <p>As granadas fazem grande diferença quando são lançadas com sabedoria e no tempo certo, conheça nossa ampla biblioteca de granadas!</p>

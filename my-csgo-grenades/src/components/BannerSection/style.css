@@ -33,14 +33,14 @@
 }
 
 .banner-about {
-    margin-top: 14vh;
+    margin-top: 18vh;
     text-align: center;
     color: #ccccd2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 62%;
+    height: 54%;
     background-color: rgba(25,28,66, 0.4);
     border-radius: 10%;
 }
@@ -48,6 +48,7 @@
 .banner-about h1{
     font-size: 4em;
     letter-spacing: .1em;
+    text-shadow: 0.05em .05em #010422;
 }
 
 .banner-about span {
@@ -55,6 +56,7 @@
     font-weight: bold;
     letter-spacing: .1em;
     padding: 0.5em 0;
+    text-shadow: 0.05em .05em #010422;
 }
 
 .banner-about p {
@@ -106,15 +108,16 @@
     }
 
     .banner-about {
-        height: 50%;
+        height: 54%;
+        margin-top: 14vh;
     }
     .img-rain img {
         display: none;
     }
     
     .img-fallen img{
-        left: 74%;
-        width: 90vw;
+        left: 90%;
+        width: 80vw;
     }
 
     .banner-section {
@@ -126,6 +129,11 @@
     .banner-about h1{
         font-size: 2em;
         padding-top: 10%;
+    }
+
+    .img-fallen img{
+        left: 50%;
+        width: 100vw;
     }
     
     .banner-about span {

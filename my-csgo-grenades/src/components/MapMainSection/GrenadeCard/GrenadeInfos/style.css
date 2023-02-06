@@ -1,0 +1,15 @@
+.grenade-infos {
+    width: 10vw;
+    height: 3vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.circle {
+    height: .5vw;
+    width: .5vw;
+    background-color: #c5b13a;
+    border-radius: 50%;
+}
