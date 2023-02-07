@@ -13,7 +13,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 128',
-        jumpThrow : 'Sem JumpThrow'    
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'base ct',
+        spotThrow : 'Da caverna TR'    
     },
     {
         grenadeImg : 'assets/mirage/mir-smoke-jungle.jpg',
@@ -22,7 +24,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'jungle',
+        spotThrow : 'Da caverna TR'
     },
     {
         grenadeImg : 'assets/mirage/mir-smoke-L.jpg',
@@ -31,7 +35,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Meio Bomb B',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'l meio',
+        spotThrow : 'Da carroça'
     },
     {
         grenadeImg : 'assets/mirage/mir-smoke-janela.jpg',
@@ -40,7 +46,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Meio',
         tickRate : 'Tickrate 128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Com JumpThrow',
+        spot : 'janela',
+        spotThrow : 'Da base TR'
     },
     {
         grenadeImg : 'assets/mirage/mir-smoke-A-default.jpg',
@@ -49,7 +57,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'default',
+        spotThrow : 'Da caverna TR'
     },
     {
         grenadeImg : 'assets/mirage/mir-smoke-cabecinha.jpg',
@@ -58,7 +68,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'cabecinha',
+        spotThrow : 'Da caverna TR'
     },
     {
         grenadeImg : 'assets/mirage/mir-smoke-liga.jpg',
@@ -67,7 +79,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'ligação',
+        spotThrow : 'Da TV'
     },
     {
         grenadeImg : 'assets/mirage/mir-smoke-mercado.jpg',
@@ -76,7 +90,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Com JumpThrow',
+        spot : 'janela mercado',
+        spotThrow : 'Do tapete'
     },
 
 /* INFERNO */ 
@@ -88,7 +104,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'nilba',
+        spotThrow : 'Da banana'
     },
     {
         grenadeImg : 'assets/inferno/inf-molly-tripla.jpg',
@@ -97,7 +115,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 128',
-        jumpThrow : 'Sem jumpThrow'
+        jumpThrow : 'Sem jumpThrow',
+        spot : 'tripla',
+        spotThrow : 'Da banana'
     },
     {
         grenadeImg : 'assets/inferno/inf-smoke-ct.jpg',
@@ -107,15 +127,19 @@ const grenadesArray = [
         bomb : 'Bomb B',
         tickRate : 'Tickrate 64/128', 
         jumpThrow : 'Sem JumpThrow',
+        spot : 'base ct',
+        spotThrow : 'Da banana',
     },
     {
         grenadeImg : 'assets/inferno/inf-smoke-3d.jpg',
-        name : 'Smoke 3D',
+        name : 'Smoke 3D/Caixão',
         map : 'inferno',
         side : 'TR',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'caixão',
+        spotThrow : 'Da Banana'
     },
     {
         grenadeImg : 'assets/inferno/inf-smoke-rua.jpg',
@@ -124,7 +148,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'rua',
+        spotThrow : 'Do MF'
     },
     {
         grenadeImg : 'assets/inferno/inf-molotov-dupla.jpg',
@@ -133,7 +159,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Com JumpThrow',
+        spot : 'dupla',
+        spotThrow : 'Da banana'
     },
     {
         grenadeImg : 'assets/inferno/inf-smoke-biblioteca.jpg',
@@ -142,7 +170,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'biblioteca',
+        spotThrow : 'Do MF'
     },
     {
         grenadeImg : 'assets/inferno/inf-smoke-nip.jpg',
@@ -151,7 +181,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Cem JumpThrow'
+        jumpThrow : 'Cem JumpThrow',
+        spot : 'nip',
+        spotThrow : 'Do meio'
     },
     {
         grenadeImg : 'assets/inferno/inf-smoke-nip-arco.jpg',
@@ -160,7 +192,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Com JumpThrow',
+        spot : 'arco',
+        spotThrow : 'Do MF'
     },
     {
         grenadeImg : 'assets/inferno/inf-smoke-xuxa.jpg',
@@ -169,7 +203,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'xuxa',
+        spotThrow : 'Do meio'
     },
 
     /* Overpass */ 
@@ -181,7 +217,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'tóxico',
+        spotThrow : 'esgoto'
     },
     {
         grenadeImg : 'assets/overpass/over-smoke-banco.jpg',
@@ -190,7 +228,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Com JumpThrow',
+        spot : 'cabecinha',
+        spotThrow : 'Da rua'
     },
     {
         grenadeImg : 'assets/overpass/over-smoke-ceu.jpg',
@@ -199,7 +239,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Com JumpThrow',
+        spot : 'cabecinha',
+        spotThrow : 'Do esgoto'
     },
     {
         grenadeImg : 'assets/overpass/over-smoke-lixeira.jpg',
@@ -208,7 +250,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Com JumpThrow',
+        spot : 'cabecinha',
+        spotThrow : 'Da rua'
     },
     {
         grenadeImg : 'assets/overpass/over-molotov-caminhao.jpg',
@@ -217,7 +261,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb A',
         tickRate : 'Tickrate 128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Com JumpThrow',
+        spot : 'cabecinha',
+        spotThrow : 'Da rua'
     },
     {
         grenadeImg : 'assets/overpass/over-molotov-sem-saida.jpg',
@@ -226,7 +272,9 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'sem saída',
+        spotThrow : 'Do esgoto'
     },
     {
         grenadeImg : 'assets/overpass/over-smoke-ponte.jpg',
@@ -235,16 +283,20 @@ const grenadesArray = [
         side : 'TR',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 64/128',
-        jumpThrow : 'Sem JumpThrow'
+        jumpThrow : 'Sem JumpThrow',
+        spot : 'ponte',
+        spotThrow : 'Do esgoto'
     },
     {
         grenadeImg : 'assets/overpass/over-smoke-sapao.jpg',
         name : 'Smoke Sapão',
         map : 'overpass',
-        side : 'TR',
+        side : 'CT',
         bomb : 'Bomb B',
         tickRate : 'Tickrate 128',
-        jumpThrow : 'Com JumpThrow'
+        jumpThrow : 'Com JumpThrow',
+        spot : 'sapão',
+        spotThrow : 'Da base ct'
     },
 
 ];
@@ -263,6 +315,10 @@ export const MapMainSection = (props) => (
                     <div className="infos-area">
                         <h2>{grenade.name}</h2>
                         <div className="infos">
+                            <div className="info">
+                                <div className="circle"></div>
+                                <p>{grenade.spotThrow}</p>
+                            </div>
                             <div className="info">
                                 <div className="circle"></div>
                                 <p>{grenade.bomb}</p>
