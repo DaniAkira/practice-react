@@ -2,6 +2,14 @@
 * Desenvolvidos com o intuito de aprender e praticar o uso do React JS.
 * Abaixo estão prévias dos projetos desenvolvidos.
 
+## My CSGO Grenades
+* Objetivo - Projeto pessoal, desenvolvido para me desafiar e colocar em prática conhecimentos que venho adquirindo com React JS
+<div align="center">
+    <img align="center" width="400px" src="https://github.com/DaniAkira/practice-react/blob/master/gifs/my-csgo-grenades-imgs/my-csgo-grenades-home-page.jpg">
+    <img align="center" width="400px" src="https://github.com/DaniAkira/practice-react/blob/master/gifs/my-csgo-grenades-imgs/my-csgo-grenades-map-page-inf.jpg">
+    <img align="center" width="400px" src="https://github.com/DaniAkira/practice-react/blob/master/gifs/my-csgo-grenades-imgs/my-csgo-grenades-map-page-mir.jpg">
+    <img align="center" width="400px" src="https://github.com/DaniAkira/practice-react/blob/master/gifs/my-csgo-grenades-imgs/my-csgo-grenades-map-page-over.jpg">
+</div>
 
 ## Mini Mundo Branding e design digital
 * Objetivo - Projeto desenvolvido para praticar o desenvolvimento de componentes com props e o uso do useState, usado para alterar o tema da página.
