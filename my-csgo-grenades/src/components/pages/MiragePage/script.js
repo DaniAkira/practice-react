@@ -12,7 +12,9 @@ export const MiragePage = () => (
             imgMapSrc = 'assets/mirage-shadow.jpg'
             logoMapSrc = 'assets/mirage-logo.png'
         />
-        <MapMainSection />
+        <MapMainSection 
+        map = 'mirage'
+        />
         <Footer />
     </body>
 )

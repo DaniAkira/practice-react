@@ -12,7 +12,9 @@ export const OverpassPage = () => (
             imgMapSrc = 'assets/overpass-shadow.jpg'
             logoMapSrc = 'assets/overpass-logo.png'
         />
-        <MapMainSection />
+        <MapMainSection 
+        map = 'overpass'
+        />
         <Footer />
     </body>
 )

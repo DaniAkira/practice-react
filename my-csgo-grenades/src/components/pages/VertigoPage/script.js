@@ -12,7 +12,9 @@ export const VertigoPage = () => (
             imgMapSrc = 'assets/vertigo-shadow.jpg'
             logoMapSrc = 'assets/vertigo-logo.png'
         />
-        <MapMainSection />
+        <MapMainSection 
+        map = 'vertigo'
+        />
         <Footer />
     </body>
 )

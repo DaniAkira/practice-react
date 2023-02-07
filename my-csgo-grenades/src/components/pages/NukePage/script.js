@@ -12,7 +12,9 @@ export const NukePage = () => (
             imgMapSrc = 'assets/nuke-shadow.jpg'
             logoMapSrc = 'assets/nuke-logo.png'
         />
-        <MapMainSection />
+        <MapMainSection 
+        map = 'nuke'
+        />
         <Footer />
     </body>
 )

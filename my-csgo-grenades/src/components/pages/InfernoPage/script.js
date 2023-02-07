@@ -12,7 +12,9 @@ export const InfernoPage = () => (
             imgMapSrc = 'assets/inferno-shadow.jpg'
             logoMapSrc = 'assets/inferno-logo.png'
         />
-        <MapMainSection />
+        <MapMainSection 
+        map = 'inferno'
+        />
         <Footer />
     </body>
 )

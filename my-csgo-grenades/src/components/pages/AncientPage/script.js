@@ -12,7 +12,9 @@ export const AncientPage = () => (
             imgMapSrc = 'assets/ancient-shadow.jpg'
             logoMapSrc = 'assets/ancient-logo.png'
         />
-        <MapMainSection />
+        <MapMainSection 
+        map = 'ancient'
+        />
         <Footer />
     </body>
 )

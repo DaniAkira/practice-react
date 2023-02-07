@@ -12,7 +12,9 @@ export const AnubisPage = () => (
             imgMapSrc = 'assets/anubis-shadow.jpg'
             logoMapSrc = 'assets/anubis-logo.png'
         />
-        <MapMainSection />
+        <MapMainSection 
+        map = 'anubis'
+        />
         <Footer />
     </body>
 )
