@@ -26,12 +26,13 @@
 .filter-button {
     padding: .2em 1em;
     background-color: #1a1d38;
-    border: 1px solid #1a1d38;
     color: #89898b;
     font-size: 1.1em;
     border: none;
     border-radius: 8%;
+    border: 1px solid #1a1d38;
 }
+
 
 .filter-button:hover {
     color: #ccccd2;
