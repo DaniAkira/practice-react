@@ -13,29 +13,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: calc(100vw/5);
-    height: 38vh;
+    justify-content: flex-start;
+    width: calc(100vw/4);
     border-radius: 20px;
     background-color: #1a1d38;
+    aspect-ratio: 19 / 17;
 }
 
 .img-grenade {
-    height: 55%;
+    height: 58%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1em;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: .5em;
 }
 
 .img-grenade img {
-    width: 100%;
+    height: 100%;
     border-radius: 5%;
     border: 2px solid #c8b43a;
+    aspect-ratio: 16 / 9;
 }
 
 .infos-area h2, .infos p{
     color: #ccccd2;
+}
+
+.infos-area h2 {
+    font-size: 1.3em;
 }
 
 .infos p {
@@ -43,13 +48,13 @@
 }
 
 .infos-area {
-    height: 45%;
+    height: 26%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-left: 2em;
+    padding-left: 1em;
 }
 
 .grenade-infos {
@@ -57,9 +62,13 @@
 }
 
 .infos {
+    margin-top: .2em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    height: 70%;
 }
 
 .info {
@@ -77,5 +86,24 @@
 
 .grenade-card:hover {
     transform:scale(1.1);
+    transition: .4;
     cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+    .grenade-card {
+        width: calc(100vw/3);
+    }
+}
+
+@media (max-width: 1080px) {
+    .grenade-card {
+        width: calc(100vw/2.5);
+    }
+}
+
+@media (max-width: 425px) {
+    .grenade-card {
+        width: calc(100vw/1.2);
+    }
 }

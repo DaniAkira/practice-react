@@ -36,3 +36,18 @@
     height: 10em;
     width: 10em;
 }
+
+@media (max-width: 425px) {
+    .map-banner-section{
+        height: 40vh;
+    }
+
+    .name-logo-map h2 {
+        font-size: 2em;
+    }
+
+    .name-logo-map img {
+        height: 3em;
+        width: 3em;
+    }
+}

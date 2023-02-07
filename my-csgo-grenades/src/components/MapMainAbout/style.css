@@ -12,6 +12,7 @@
     font-size: 2.4em;
     color: #ccccd2;
     padding-bottom: .6em;
+    text-align: center;
 }
 
 .filter-buttons {
@@ -36,6 +37,36 @@
     color: #ccccd2;
     cursor: pointer;
     border: 1px solid #ccccd2;
+    transition: .4;
 }
 
+@media (max-width: 1080px) {
+    .filter-button {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .filter-button {
+        font-size: .8em;
+    }
+    .filter-buttons {
+        width: 90%;
+        gap: .6em;
+    }
+}
+
+@media (max-width: 425px) {
+    .filter-buttons {
+        flex-wrap: wrap;
+    }
+
+    .map-main-about {
+        height: 34vh;
+    }
+    
+    .map-main-about h2 {
+        font-size: 1.8em;
+    }
+}
 

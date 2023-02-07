@@ -83,7 +83,7 @@ const grenadesArray = [
 
     {
         grenadeImg : 'assets/inferno/inf-molly-nilba.jpg',
-        name : 'Molotove Nilba Bomb B',
+        name : 'Molotove Nilba',
         map : 'inferno',
         side : 'TR',
         bomb : 'Bomb B',
@@ -176,7 +176,7 @@ const grenadesArray = [
 
     {
         grenadeImg : 'assets/overpass/over-molly-toxico.jpg',
-        name : 'Molotove Tóxico Bomb B',
+        name : 'Molotove Tóxico',
         map : 'overpass',
         side : 'TR',
         bomb : 'Bomb B',
@@ -185,7 +185,7 @@ const grenadesArray = [
     },
     {
         grenadeImg : 'assets/overpass/over-smoke-banco.jpg',
-        name : 'Smoke Banco Bomb A',
+        name : 'Smoke Banco',
         map : 'overpass',
         side : 'TR',
         bomb : 'Bomb A',
@@ -194,7 +194,7 @@ const grenadesArray = [
     },
     {
         grenadeImg : 'assets/overpass/over-smoke-ceu.jpg',
-        name : 'Smoke Céu Bomb B',
+        name : 'Smoke Céu',
         map : 'overpass',
         side : 'TR',
         bomb : 'Bomb B',
@@ -203,7 +203,7 @@ const grenadesArray = [
     },
     {
         grenadeImg : 'assets/overpass/over-smoke-lixeira.jpg',
-        name : 'Smoke Lixeira Bomb A',
+        name : 'Smoke Lixeira',
         map : 'overpass',
         side : 'TR',
         bomb : 'Bomb A',
