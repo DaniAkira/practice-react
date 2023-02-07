@@ -1,5 +1,5 @@
 .map-main-section {
-    background-color: #010422;
+    background-color: rgba(0,3,26,1);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     width: calc(100vw/5);
-    height: 44vh;
+    height: 38vh;
     border-radius: 20px;
     background-color: #1a1d38;
 }
@@ -31,12 +31,15 @@
 .img-grenade img {
     width: 100%;
     border-radius: 5%;
-    border: 1px solid #c8b43a;
-    margin-top: 1em;
+    border: 2px solid #c8b43a;
 }
 
 .infos-area h2, .infos p{
     color: #ccccd2;
+}
+
+.infos p {
+    font-size: .9em;
 }
 
 .infos-area {
@@ -45,12 +48,18 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     padding-left: 2em;
 }
 
 .grenade-infos {
     display: flex;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -60,8 +69,13 @@
 }
 
 .circle {
-    width: 1em;
-    height: 1em;
+    width: .6em;
+    height: .6em;
     background-color: #c8b43a;
     border-radius: 50%;
+}
+
+.grenade-card:hover {
+    transform:scale(1.1);
+    cursor: pointer;
 }
