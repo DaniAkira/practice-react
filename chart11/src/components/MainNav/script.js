@@ -6,6 +6,7 @@ import './style.css';
 export const MainNav = () => { 
   let activeStyle = {
     backgroundColor: "#8d8da1",
+    color: "#f7f7f7"
   };
   
 return(

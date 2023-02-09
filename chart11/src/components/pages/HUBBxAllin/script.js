@@ -40,7 +40,7 @@ export const HUBBxAllin = () => (
             <img src="assets/hu bb x allin/13.png" id="13"></img>
             <img src="assets/hu bb x allin/15-14.png" id="14-15"></img>
             <img src="assets/hu bb x allin/16.png" id="16"></img>
-            <img src="assets/hu bb x allin/17+.png" id="17"></img>
+            <img src="assets/hu bb x allin/17.png" id="17"></img>
             <img src="assets/hu bb x allin/20-18.png" id="18-20"></img>
             <img src="assets/hu bb x allin/21+.png" id="21++"></img>
             <div className="white-section"></div>

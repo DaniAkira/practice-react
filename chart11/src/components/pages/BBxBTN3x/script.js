@@ -1,7 +1,8 @@
 import React from "react";
 import { MainNav } from "../../MainNav/script";
 
-export const BBxBTN3x = () => (
+export const BBxBTN3x = () => { 
+return(
     <body className="body-section">
         <nav className="second-nav">
             <li className="second-nav-li"><a href="#1-9">1-9</a></li>
@@ -20,4 +21,4 @@ export const BBxBTN3x = () => (
             <div className="white-section"></div>
         </div>
     </body>
-)
+)}

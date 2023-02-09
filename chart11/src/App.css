@@ -12,6 +12,12 @@
   text-decoration: none;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .nav-section {
   width: 30vw;
 }
@@ -19,10 +25,13 @@
 .images-section {
   width: 70vw;
   margin: 2em 0 0 14em;
+  height: 100vh;
+  overflow-inline: hidden;
 }
 
 .images-section img {
-  padding-top: 4.4em;
+  padding-top: 20vh;
+  padding-bottom: 50vh;
   width: 70vw;
 }
 
@@ -65,4 +74,14 @@
 
 .white-section {
   height: 50vh;
+}
+
+@media (max-width: 1200px) {
+  .second-nav-li {
+    font-size: 1.2em;
+  }
+  .second-nav{
+    width: 88%;
+    left: 12vw;
+  }
 }
