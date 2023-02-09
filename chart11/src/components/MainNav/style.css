@@ -1,0 +1,28 @@
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #5e6073;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.main-nav li{
+    list-style: none;
+    border: 1px solid #cfcfcf;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.link-nav {
+    color: #cfcfcf;
+    font-size: 1.2em;
+}
+
+.main-nav li:hover{
+    background-color: #8d8da1;
+    cursor: pointer;
+}
