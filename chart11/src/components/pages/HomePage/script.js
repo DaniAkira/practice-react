@@ -19,6 +19,7 @@ export const HomePage = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W</h1>
             <img src="assets/3w/5.png" id="5"></img>
             <img src="assets/3w/6.png" id="6"></img>
             <img src="assets/3w/7.png" id="7"></img>

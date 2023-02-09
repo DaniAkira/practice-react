@@ -21,6 +21,7 @@ export const HUSB = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">HU SB</h1>
             <img src="assets/hu sb/4-1.png" id="1-4"></img>
             <img src="assets/hu sb/5.png" id="5"></img>
             <img src="assets/hu sb/6.png" id="6"></img>

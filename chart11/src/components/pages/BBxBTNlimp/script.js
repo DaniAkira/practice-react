@@ -13,6 +13,7 @@ export const BBxBTNlimp = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W BB x BTN Limp</h1>
             <img src="assets/3w bb x btn limp/14-1.png" id="1-14"></img>
             <img src="assets/3w bb x btn limp/19-15.png" id="15-19"></img>
             <img src="assets/3w bb x btn limp/20+.png" id="20+"></img>

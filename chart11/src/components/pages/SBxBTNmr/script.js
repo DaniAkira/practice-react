@@ -12,6 +12,7 @@ export const SBxBTNmr = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W SB x BTN MR</h1>  
             <img src="assets/3w - sb x btn MR/12-1.png" id="1-12"></img>
             <img src="assets/3w - sb x btn MR/17-13.png" id="13-17"></img>
             <img src="assets/3w - sb x btn MR/18+.png" id="18+"></img>

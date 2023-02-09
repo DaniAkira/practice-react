@@ -14,6 +14,7 @@ return(
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W BB x BTN 3x</h1>
             <img src="assets/3w-bbxbtn3x/9-1.png" id="1-9"></img>
             <img src="assets/3w-bbxbtn3x/13-10.png" id="10-13"></img>
             <img src="assets/3w-bbxbtn3x/17-14.png" id="14-17"></img>

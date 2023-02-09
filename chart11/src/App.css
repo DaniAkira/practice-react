@@ -10,12 +10,22 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Poppins', cursive;
 }
 
 body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+}
+
+.tittle {
+  position: fixed;
+  top: 13vh;
+  left: center;
+  color: #d0d0d1;
+  font-size: 2.5em;
+  letter-spacing: .2em;
 }
 
 .nav-section {

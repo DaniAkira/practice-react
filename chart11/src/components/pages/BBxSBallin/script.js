@@ -23,6 +23,7 @@ export const BBxSBallin = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W BB x SB All in</h1>
             <img src="assets/3w bb x sb allin/3-1.png" id="1-3"></img>
             <img src="assets/3w bb x sb allin/4.png" id="4"></img>
             <img src="assets/3w bb x sb allin/5.png" id="5"></img>

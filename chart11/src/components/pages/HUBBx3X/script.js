@@ -13,6 +13,7 @@ export const HUBBx3X = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">HU BB x 3X</h1>
             <img src="assets/hu bb x 3x/9-1.png" id="1-9"></img>
             <img src="assets/hu bb x 3x/13-10.png" id="10-13"></img>
             <img src="assets/hu bb x 3x/17-14.png" id="14-17"></img>

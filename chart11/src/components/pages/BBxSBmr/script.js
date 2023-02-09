@@ -16,6 +16,7 @@ export const BBxSBmr = () => (
             />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W BB x SB MR</h1>
             <img src="assets/3w bb x sb mr/9-1.png" id="1-9"></img>
             <img src="assets/3w bb x sb mr/12-10.png" id="10-12"></img>
             <img src="assets/3w bb x sb mr/15-13.png" id="13-15"></img>

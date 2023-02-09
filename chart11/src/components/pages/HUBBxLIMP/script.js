@@ -17,6 +17,7 @@ export const HUBBxLIMP = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">HU BB x Limp</h1>
             <img src="assets/hu bb vs limp/3-1.png" id="1-3"></img>
             <img src="assets/hu bb vs limp/5-4.png" id="4-5"></img>
             <img src="assets/hu bb vs limp/7-6.png" id="6-7"></img>

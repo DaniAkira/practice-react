@@ -17,6 +17,7 @@ export const SBxBB = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W SB x BB</h1>
             <img src="assets/3w - SB x BB/6-1.png" id="1-6"></img>
             <img src="assets/3w - SB x BB/7-8.png" id="7-8"></img>
             <img src="assets/3w - SB x BB/9-10.png" id="9-10"></img>

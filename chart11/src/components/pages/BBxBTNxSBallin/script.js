@@ -19,6 +19,7 @@ export const BBxBTNxSBallin = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W BB x BTN x SB All in</h1>
             <img src="assets/3w bb x btn x sb allin/2.png" id="2"></img>
             <img src="assets/3w bb x btn x sb allin/3.png" id="3"></img>
             <img src="assets/3w bb x btn x sb allin/4.png" id="4"></img>

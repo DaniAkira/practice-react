@@ -18,6 +18,7 @@ export const SBxBTNallin = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W SB x BTN All in</h1>
             <img src="assets/3w - sb x btn allin/1,5.png" id="1,5"></img>
             <img src="assets/3w - sb x btn allin/2.png" id="2"></img>
             <img src="assets/3w - sb x btn allin/3.png" id="3"></img>

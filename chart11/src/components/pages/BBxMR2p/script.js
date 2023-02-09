@@ -11,6 +11,7 @@ export const BBxMR2p = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W BB x MR 2P</h1>
             <img src="assets/3w bb x mr 2p/18-1.png" id="1-18"></img>
             <img src="assets/3w bb x mr 2p/19+.png" id="19+"></img>
             <div className="white-section"></div>

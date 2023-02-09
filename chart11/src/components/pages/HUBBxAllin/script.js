@@ -26,6 +26,7 @@ export const HUBBxAllin = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">HU BB x All in</h1>
             <img src="assets/hu bb x allin/2-1.png" id="1-2"></img>
             <img src="assets/hu bb x allin/3.png" id="3"></img>
             <img src="assets/hu bb x allin/4.png" id="4"></img>

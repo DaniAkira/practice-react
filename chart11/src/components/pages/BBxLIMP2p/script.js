@@ -14,6 +14,7 @@ export const BBxLIMP2p = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">3W BB x Limp 2P</h1>
             <img src="assets/3w bb x limp 2p/10-1.png" id="1-10"></img>
             <img src="assets/3w bb x limp 2p/14-11.png" id="11-14"></img>
             <img src="assets/3w bb x limp 2p/17-14.png" id="14-17"></img>

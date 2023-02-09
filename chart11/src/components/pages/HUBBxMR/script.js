@@ -15,6 +15,7 @@ export const HUBBxMR = () => (
             <MainNav />
         </div>
         <div className="images-section">
+            <h1 className="tittle">HU BB x MR</h1>
             <img src="assets/hu bb vs mr/6-1.png" id="1-6"></img>
             <img src="assets/hu bb vs mr/10-7.png" id="7-10"></img>
             <img src="assets/hu bb vs mr/13-11.png" id="11-13"></img>
