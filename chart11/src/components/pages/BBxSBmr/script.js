@@ -11,7 +11,9 @@ export const BBxSBmr = () => (
             <li className="second-nav-li"><a href="#21+">21+</a></li>
         </nav>
         <div className="nav-section">
-            <MainNav />
+            <MainNav 
+                currentPage='current-page'
+            />
         </div>
         <div className="images-section">
             <img src="assets/3w bb x sb mr/9-1.png" id="1-9"></img>

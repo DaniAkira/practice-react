@@ -1,109 +1,234 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './style.css';
 
-export const MainNav = () => (
+
+export const MainNav = () => { 
+  let activeStyle = {
+    backgroundColor: "#8d8da1",
+  };
+  
+return(
   <nav className="main-nav">
     <li>
-      <Link className="link-nav" to="/">
-        3w
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxBTN3x">
-        3w - bb x btn 3x
-      </Link>
+      <NavLink 
+        className="link-nav"
+        to="/BBxBTN3x"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W- BB x BTN 3x
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxBTNallin">
-        3w - bb x btn allin
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/BBxBTNallin"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W - BB x BTN ALL IN 
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/SBxBB">
-        3w - SB x BB
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/SBxBB"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W - SB x BB
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/SBxBTNallin">
-        3w - sb x btn allin
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/SBxBTNallin"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W - SB X BTN ALL IN
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/SBxBTNlimp">
-        3w - sb x btn limp
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/SBxBTNlimp"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W - SB x BTN LIMP
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/SBxBTNmr">
-        3w - sb x btn MR
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/SBxBTNmr"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W - SB x BTN MR
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxBTNlimp">
-        3w bb x btn limp
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/BBxBTNlimp"
+        style={({ isActive }) =>
+                isActive ? activeStyle : undefined
+              }
+      >
+        3W BB x BTN LIMP
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxBTNmr">
-        3w bb x btn mr
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/BBxBTNmr"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W BB x BTN MR
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxBTNxSBallin">
-        3w bb x btn x sb allin
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/BBxBTNxSBallin"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W BB x BTN x SB ALL IN
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxLIMP2p">
-        3w bb x limp 2p
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/BBxLIMP2p"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W BB x LIMP 2P
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxMR2p">
-        3w bb x mr 2p
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/BBxMR2p"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W BB x MR 2P
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxSBallin">
-        3w bb x sb allin
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/BBxSBallin"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        3W BB x SB ALL IN
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxSBlimp">
-        3w bb x sb limp
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/BBxSBlimp"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+        >
+        3W BB x SB LIMP
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/BBxSBmr">
-        3w bb x sb mr
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/BBxSBmr"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+        >
+        3W BB x SB MR
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/HUBBxLIMP">
-        hu bb vs limp
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/HUBBxLIMP"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        HU BB x LIMP
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/HUBBxMR">
-        hu bb vs mr
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/HUBBxMR"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+        >
+        HU BB x MR
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/HUBBx3X">
-        hu bb x 3x
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/HUBBx3X"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+      >
+        HU BB x 3x
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/HUBBxAllin">
-        hu bb x allin
-      </Link>
+      <NavLink 
+        className="link-nav" 
+        to="/HUBBxAllin"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+        >
+        HU BB x ALL IN
+      </NavLink>
     </li>
     <li>
-      <Link className="link-nav" to="/HUSB">
-        hu sb
-      </Link>
-            
+      <NavLink 
+        className="link-nav" 
+        to="/HUSB"
+        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+              }
+        >
+        HU SB
+      </NavLink>
     </li>
   </nav>
-);
+)};
