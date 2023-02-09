@@ -37,17 +37,24 @@
   width: 90vw;
 }
 
-.second-nav li {
+.second-nav-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
-  padding: .5em .5em;
   font-size: 1.6em;
   border: 1px solid #d8d9da;
+  width: 100%;
+  height: 100%;
 }
 
 .second-nav-li a{
   color: #d8d9da;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .second-nav li:hover {
