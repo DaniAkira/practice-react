@@ -10,21 +10,6 @@ export const MainNav = () => (
       </Link>
     </li>
     <li>
-      <Link className="link-nav" to="/">
-        3w
-      </Link>
-    </li>
-    <li>
-      <Link className="link-nav" to="/">
-        3w
-      </Link>
-    </li>
-    <li>
-      <Link className="link-nav" to="/">
-        3w
-      </Link>
-    </li>
-    <li>
       <Link className="link-nav" to="/BBxBTN3x">
         3w - bb x btn 3x
       </Link>

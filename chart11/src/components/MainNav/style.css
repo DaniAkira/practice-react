@@ -8,18 +8,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow-y: scroll;
+    height: 100vh;
+    width: 10vw;
 }
 .main-nav li{
     list-style: none;
     border: 1px solid #cfcfcf;
     width: 100%;
-    padding: 1em 0;
+    height: calc(100vh/20);
+}
+
+.main-nav li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .link-nav {
     color: #cfcfcf;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .main-nav li:hover{
