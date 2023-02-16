@@ -2,14 +2,29 @@ import React from "react";
 import "./style.css";
 import { grenadesArray } from "../data/data";
 import { GrenadeVideoSection } from "../GrenadeVideoSection/script";
+import { useState } from "react";
 
-export const MapMainSection = (props) => (
+export const MapMainSection = (props) => {
+
+  const [grenadeCardState, setGrenadeCardState] = useState(false);
+
+  const toggleHideVideos = () => {
+    setGrenadeCardState(grenadeCardState => !grenadeCardState);
+  }
+
+  let videoClass = grenadeCardState ? null : "hide-videos";
+
+  return (
   <section className="map-main-section">
     {
     grenadesArray
       .filter((grenade) => grenade.map === props.map)
       .map((grenade, i) => (
-        <div className="grenade-card" id={i}>
+        <div 
+        className="grenade-card" 
+        id={i}
+        onClick={toggleHideVideos}
+        >
           <div className="img-grenade">
             <img src={grenade.grenadeImg}></img>
           </div>
@@ -42,8 +57,14 @@ export const MapMainSection = (props) => (
             video = {grenade.grenadeImg}
             name = {grenade.name}
             grenadeId = {i}
+            videoClass = {videoClass}
           />
+          <div className={`closeBox ${videoClass}`}>
+                <div 
+                className="cross"
+                ></div>
+            </div>
         </div>
       ))}
   </section>
-);
+)};
