@@ -55,7 +55,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: .4em 0 0 1.4em;
+    padding: .6em 0 0 1.8em;
 }
 
 .grenade-infos {
@@ -87,7 +87,7 @@
 
 .grenade-card:hover {
     transform:scale(1.1);
-    transition: .4;
+    transition: .3s ease-in-out;
     cursor: pointer;
 }
 
@@ -95,16 +95,59 @@
     .grenade-card {
         width: calc(100vw/3);
     }
+    .infos-area {
+        height: 30%;
+    }
 }
 
 @media (max-width: 1080px) {
     .grenade-card {
         width: calc(100vw/2.5);
     }
+
+    .grenade-card {
+        aspect-ratio: 19 / 17;
+    }
+}
+
+@media (max-width: 768px) {
+    .grenade-card {
+        width: calc(100vw/1.2);
+        flex-direction: row;
+        aspect-ratio: 21 / 9;
+    }
+
+    .infos-area {
+        height: 80%;
+    }
+
+    .img-grenade img {
+        margin-left: 1em;
+    }
+
+    .infos-area {
+        padding-left: 2em;
+    }
+
+    .img-grenade {
+        height: 80%;
+        margin: 0;
+    }
 }
 
 @media (max-width: 425px) {
     .grenade-card {
         width: calc(100vw/1.2);
+        flex-direction: column;
+        aspect-ratio: 16 / 10;
+    }
+
+    .img-grenade img {
+        margin-top: .5em;
+        margin-left: 0;
+    }
+
+    .infos-area {
+        padding-left: 2em;
     }
 }

@@ -38,7 +38,7 @@
     color: #ccccd2;
     cursor: pointer;
     border: 1px solid #ccccd2;
-    transition: .4;
+    transition: .4s;
 }
 
 @media (max-width: 1080px) {

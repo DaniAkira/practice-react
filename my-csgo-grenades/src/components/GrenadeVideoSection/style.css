@@ -1,0 +1,39 @@
+.grenade-video-section {
+    position: fixed;
+    width: 60vw;
+    height: 50vh;
+    top: 25%;
+    left: 25%;
+}
+
+.video-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-area img{
+    aspect-ratio: 16/9;
+    height: 50vh;
+}
+
+.closeBox {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.cross {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.hide-videos {
+    display: none;
+}
+
